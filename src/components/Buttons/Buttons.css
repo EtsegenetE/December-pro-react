@@ -1,0 +1,23 @@
+.primary-btn {
+  background-color: #2FC7A1;
+  display: inline-flex;
+  align-items: center;
+  gap: 20px;
+
+  border-radius: 200px;
+  border: none;
+  color: white;
+  cursor: pointer;  
+}
+
+.primary-arrow {
+  background-color: #35D7AE;
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.primary-arrow img {
+  width: 20px;
+}

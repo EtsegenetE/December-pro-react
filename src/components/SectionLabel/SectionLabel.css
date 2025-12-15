@@ -1,0 +1,12 @@
+.section-label {
+  display: inline-flex;
+  align-items: center;
+  gap: 10px;
+  padding: 8px 16px;
+  border-radius: 20px;
+}
+
+.section-label span {
+  font-size: 20px;
+  font-weight: 600;
+}

@@ -5,7 +5,9 @@ import './App.css'
 import Header from './components/Header/Header.jsx'
 import Navbar from './components/Navbar/Navbar.jsx'
 import Hero from './components/Hero/Hero.jsx'
-
+import Benefit from './components/Benefit/Benefit.jsx'
+import PopularCourses from './components/PopularCourses/PopularCourses.jsx'
+import Status from './components/StatusValue/Status.jsx'
 
 
 function App() {
@@ -16,6 +18,9 @@ function App() {
      <Header />
      <Navbar />
      <Hero />
+     <Benefit />
+     <PopularCourses />
+     <Status />
     </div>
   )
 }

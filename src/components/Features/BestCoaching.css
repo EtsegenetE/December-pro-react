@@ -1,0 +1,29 @@
+.coaching-container{
+    background-color: white;
+
+}
+
+.coaching-wrapper {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    gap: 16px;
+}
+
+.coaching-container {
+  width: 270px;
+  background-color: white;
+  border-radius: 16px;
+  padding: 24px;
+}
+
+.primary-btn {
+    gap: 50px;
+}
+
+.coaching-wrapper p {
+    color: #4D5756;
+    font-size: 16px;
+}

@@ -1,0 +1,89 @@
+.teachers-container {
+  width: 100%;
+  padding: 100px 20px;
+  display: flex;
+  justify-content: center;
+  background-color: #f9f9f9;
+  height: 350px; /* fallback */
+}
+
+.teachers-content {
+  max-width: 1200px;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  gap: 60px;
+}
+
+/* Header */
+.teachers-head {
+  text-align: center;
+}
+
+.teachers-head h1 {
+  font-size: 36px;
+  color: #ffffff;
+  margin-top: 16px;
+}
+
+/* Teachers list - single row */
+.teachers-list {
+  display: flex;
+  gap: 20px;
+  flex-wrap: nowrap;
+  justify-content: space-between;
+}
+
+/* Teacher card */
+.teacher-card {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  position: relative;
+  width: 280px;
+  box-shadow: 0 10px 30px rgba(0, 0, 0, 0.1);
+  overflow: hidden;
+}
+
+/* Teacher photo */
+.teachers-photo {
+  width: 100%;
+  height: auto;
+  display: block;
+}
+
+/* Share icon */
+.share-icon {
+  position: absolute;
+  top: 10px;
+  right: 10px;
+  width: 32px;
+  height: 32px;
+}
+
+/* Name & role info */
+.teachers-name {
+  width: 100%;
+  background-color: #17254E; /* blue-black */
+  text-align: center;
+  padding: 16px 0;
+  height: 50px;
+  padding-top: 30px;
+}
+
+.teachers-name h4 {
+  margin: 0;
+  color: #ffffff;
+  font-size: 18px;
+}
+
+.teachers-name p {
+  margin: 4px 0 0;
+  color: #FE543D;
+  font-size: 14px;
+}
+
+/* Section label color */
+.section-label span {
+  color: #FE543D;
+}

@@ -76,10 +76,7 @@
   display: flex;
   align-items: center;
   gap: 8px;
-}
-
-.developer {
-  display: flex;
+  flex-shrink: 0;
 }
 
 .cart {
@@ -87,6 +84,4 @@
   justify-content: space-between;
 }
 
-.cart-action {
-  display: flex;
-}
+

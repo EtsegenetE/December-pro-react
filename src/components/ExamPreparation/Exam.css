@@ -1,0 +1,84 @@
+.exam-container {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 100px 20px;
+}
+
+/* Header */
+.exam-header {
+  text-align: center;
+  margin-bottom: 80px;
+}
+
+.exam-header h1 {
+  font-size: 42px;
+  color: #0e2a46;
+}
+
+/* Wrapper for cards */
+.join-wrapper {
+  display: flex;
+  gap: 40px;
+}
+
+/* Card base */
+.join-now-container {
+  flex: 1;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 60px;
+  border-radius: 24px;
+}
+
+/* 🔹 Dark version */
+.join-now-container.dark {
+  background-color: #17254e;
+  color: white;
+}
+
+/* 🔹 Light version */
+.join-now-container.light {
+  background-color: #2fc7a1;
+  color: #0e2a46;
+}
+
+.primary-arrow.light {
+    background-color: #17254e;
+    
+}
+
+/* Content */
+.join-content {
+  max-width: 480px;
+}
+
+.join-subtitle {
+  font-weight: 600;
+  margin-bottom: 10px;
+}
+
+.join-content h2 {
+  font-size: 28px;
+  margin-bottom: 30px;
+}
+
+/* Image */
+.join-image img {
+  max-width: 320px;
+}
+
+/* 🔘 Buttons override styles */
+.btn-green {
+  background-color: #2fc7a1;
+  color: #ffffff;
+}
+
+.btn-dark {
+  background-color: #0e2a46;
+  color: #ffffff;
+}
+
+.primary-btn {
+    gap: 70px;
+}

@@ -3,7 +3,7 @@ import Buttons from "../Buttons/Buttons.jsx";
 import SectionLabel from "../SectionLabel/SectionLabel.jsx";
 import blogGroup from "../../assets/blogGroup.svg";
 import blogStudy from "../../assets/blogStudy.svg";
-import blogStudy from "../../assets/blogStudy2,svg";
+import blogStudy2 from "../../assets/blogStudy2.svg"; // unique name & correct extension
 import calendar from "../../assets/calendar.svg";
 import comment from "../../assets/comment.svg";
 import aboutUs from "../../assets/aboutUs.svg";

@@ -55,7 +55,7 @@ export default function BlogPost() {
   return (
     <div className="blog-post-container">
       <PopularPost />
-      <div className="post-wrapper" >
+      <div className="post-wrapper">
         <Posts post={blogGroup} date="21 April 2023" />
         <Posts post={blogStudy} date="15 April 2024" />
         <Posts post={blogStudy2} date="11 April 2024" />

@@ -15,7 +15,7 @@ import Feedback from './components/Feedback/Feedback.jsx';
 import Events from './components/ExploreEvents/Events.jsx';
 import Teachers from './components/Teachers/Teachers.jsx';
 import BlogPost from './components/BlogPost/BlogPost.jsx';
-
+import Address from './components/Address/Address.jsx';
 
 
 function App() {
@@ -36,6 +36,7 @@ function App() {
      <Events />
      <Teachers />
      <BlogPost />
+     <Address />
      
     </div>
   )

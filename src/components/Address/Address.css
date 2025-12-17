@@ -1,0 +1,154 @@
+
+.address-container {
+  width: 100%;
+  color: #ffffff;
+  padding: 80px 20px 40px;
+}
+
+.address-inner {
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+.header-location {
+  display: flex;
+  align-items: center;
+  gap: 15px;
+}
+
+.header-location img {
+  width: 40px;
+}
+
+.header-location p {
+  margin: 0;
+  font-size: 14px;
+  color: #cccccc;
+}
+
+.header-location h3 {
+  margin: 0;
+  font-size: 18px;
+  color: #ffffff;
+}
+
+.address-inner > div:first-child {
+  display: flex;
+  justify-content: space-between;
+  border-bottom: 1px solid gray;
+  padding-bottom: 40px;
+  margin-bottom: 60px;
+}
+
+.address-label p {
+    color: #2FC7A1;
+}
+
+.address-body {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  gap: 40px;
+  margin-bottom: 60px;
+}
+
+.address-item {
+    display: flex;
+    gap: 20px;
+    padding-right: 100px;
+    border-right: 1px solid gray;
+}
+
+.footer-edunity img {
+  width: 140px;
+  margin-bottom: 20px;
+}
+
+.footer-edunity p {
+  font-size: 15px;
+  line-height: 1.6;
+  color: #dddddd;
+}
+
+.footer-img {
+  display: flex;
+  gap: 12px;
+  margin-top: 20px;
+}
+
+.footer-img img {
+  width: 32px;
+  cursor: pointer;
+}
+
+.footer-social {
+    display: flex;
+
+}
+
+.footer-social img {
+    width: 45px;
+}
+
+.address-body h3 {
+  font-size: 20px;
+  margin-bottom: 20px;
+}
+
+.address-body ul {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+.address-body ul li {
+  font-size: 15px;
+  margin-bottom: 10px;
+  cursor: pointer;
+}
+
+.gallery-grid {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 10px;
+}
+
+.gallery-grid img {
+  width: 100%;
+  border-radius: 6px;
+}
+
+form {
+  display: flex;
+  flex-direction: column;
+  gap: 12px;
+}
+
+form input {
+  padding: 12px;
+  border-radius: 6px;
+  border: none;
+  outline: none;
+}
+
+form button {
+  padding: 12px;
+  border-radius: 6px;
+  border: none;
+  background-color: #2fc7a1;
+  color: #ffffff;
+  font-weight: bold;
+  cursor: pointer;
+  width: 220px;
+}
+
+.address-inner > p {
+  border-top: 1px solid rgba(255, 255, 255, 0.2);
+  padding-top: 20px;
+  text-align: center;
+  font-size: 14px;
+}
+
+.address-inner > p span {
+  color: #2fc7a1;
+  font-weight: bold;
+}

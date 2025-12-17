@@ -14,6 +14,9 @@ import Exam from './components/ExamPreparation/Exam.jsx';
 import Feedback from './components/Feedback/Feedback.jsx';
 import Events from './components/ExploreEvents/Events.jsx';
 import Teachers from './components/Teachers/Teachers.jsx';
+import BlogPost from './components/BlogPost/BlogPost.jsx';
+
+
 
 function App() {
  
@@ -32,6 +35,7 @@ function App() {
      <Feedback />
      <Events />
      <Teachers />
+     <BlogPost />
      
     </div>
   )

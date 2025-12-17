@@ -3,7 +3,7 @@ import Buttons from "../Buttons/Buttons.jsx";
 import SectionLabel from "../SectionLabel/SectionLabel.jsx";
 import blogGroup from "../../assets/blogGroup.svg";
 import blogStudy from "../../assets/blogStudy.svg";
-import blogStudy2 from "../../assets/blogStudy2.svg"; // unique name & correct extension
+import blogS from "../../assets/blogS.svg";
 import calendar from "../../assets/calendar.svg";
 import comment from "../../assets/comment.svg";
 import aboutUs from "../../assets/aboutUs.svg";
@@ -58,7 +58,7 @@ export default function BlogPost() {
       <div className="post-wrapper">
         <Posts post={blogGroup} date="21 April 2023" />
         <Posts post={blogStudy} date="15 April 2024" />
-        <Posts post={blogStudy2} date="11 April 2024" />
+        <Posts post={blogS} date="11 April 2024" />
       </div>
     </div>
   );

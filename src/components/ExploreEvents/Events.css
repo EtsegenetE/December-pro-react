@@ -1,7 +1,7 @@
 .event-container {
   width: 100%;
   padding: 100px 20px;
-  background-color: #f9f9f9; /* optional light background */
+  background-color: #f9f9f9; 
   display: flex;
   justify-content: center;
 }
@@ -15,7 +15,6 @@
   flex-wrap: wrap;
 }
 
-/* Text section */
 .upcoming-event {
   flex: 1;
   min-width: 300px;
@@ -52,7 +51,7 @@
   line-height: 1.6;
 }
 
-/* Image section */
+
 .event-image {
   flex: 1;
   min-width: 300px;

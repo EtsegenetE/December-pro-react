@@ -4,7 +4,7 @@
   padding: 100px 20px;
 }
 
-/* Header */
+
 .exam-header {
   text-align: center;
   margin-bottom: 80px;
@@ -15,13 +15,13 @@
   color: #0e2a46;
 }
 
-/* Wrapper for cards */
+
 .join-wrapper {
   display: flex;
   gap: 40px;
 }
 
-/* Card base */
+
 .join-now-container {
   flex: 1;
   display: flex;
@@ -31,13 +31,12 @@
   border-radius: 24px;
 }
 
-/* 🔹 Dark version */
 .join-now-container.dark {
   background-color: #17254e;
   color: white;
 }
 
-/* 🔹 Light version */
+
 .join-now-container.light {
   background-color: #2fc7a1;
   color: #0e2a46;
@@ -48,7 +47,7 @@
     
 }
 
-/* Content */
+
 .join-content {
   max-width: 480px;
 }
@@ -63,12 +62,11 @@
   margin-bottom: 30px;
 }
 
-/* Image */
+
 .join-image img {
   max-width: 320px;
 }
 
-/* 🔘 Buttons override styles */
 .btn-green {
   background-color: #2fc7a1;
   color: #ffffff;

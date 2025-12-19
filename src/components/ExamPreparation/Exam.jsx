@@ -6,7 +6,7 @@ import examBoy from "../../assets/examBoy.svg";
 import Buttons from "../Buttons/Buttons";
 import SectionLabel from "../SectionLabel/SectionLabel";
 
-/* 🔹 Reusable JoinNow card */
+
 function JoinNow({ icon, variant }) {
   return (
     <div className={`join-now-container ${variant}`}>
@@ -31,7 +31,7 @@ function JoinNow({ icon, variant }) {
   );
 }
 
-/* 🔹 Header */
+
 function ExamHeader() {
   return (
     <div className="exam-header">
@@ -47,10 +47,9 @@ export default function Exam() {
       <ExamHeader />
 
       <div className="join-wrapper">
-        {/* 🔹 Dark card → Green button */}
+       
         <JoinNow icon={examGirl} variant="dark" />
 
-        {/* 🔹 Light card → Dark button */}
         <JoinNow icon={examBoy} variant="light" />
       </div>
     </section>

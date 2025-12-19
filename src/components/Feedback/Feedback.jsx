@@ -19,7 +19,7 @@ function OnlineHead() {
   const stars = Array(6).fill(onlineStar);
   return (
     <div className="online-school">
-      <OnlineSchool icon={null} /> {/* optional label */}
+      <OnlineSchool icon={null} />
       {stars.map((icon, idx) => (
         <OnlineSchool key={idx} icon={icon} />
       ))}
